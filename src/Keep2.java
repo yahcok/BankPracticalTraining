@@ -43,35 +43,35 @@ public class Keep2 extends JFrame{
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "成功存入");
+                JOptionPane.showMessageDialog(null, "成功存入100元");
                 Check.banlance+=100;
             }
         });b2.addActionListener(new ActionListener() {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "成功存入");
+                JOptionPane.showMessageDialog(null, "成功存入2000元");
                 Check.banlance+=2000;
             }
         });b3.addActionListener(new ActionListener() {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "成功存入");
+                JOptionPane.showMessageDialog(null, "成功存入500元");
                 Check.banlance+=500;
             }
         });b4.addActionListener(new ActionListener() {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "成功存入");
+                JOptionPane.showMessageDialog(null, "成功存入5000元");
                 Check.banlance+=5000;
             }
         });b5.addActionListener(new ActionListener() {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "成功存入");
+                JOptionPane.showMessageDialog(null, "成功存入1000元");
                 Check.banlance+=1000;
             }
         });b6.addActionListener(new ActionListener() {
